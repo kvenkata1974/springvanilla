@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: demo.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.887 sec <<< FAILURE! - in demo.ApplicationTests
+resourceLoads(demo.ApplicationTests)  Time elapsed: 0.435 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<403>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at demo.ApplicationTests.resourceLoads(ApplicationTests.java:29)
+
